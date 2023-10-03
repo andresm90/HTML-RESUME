@@ -1,0 +1,36 @@
+body{
+    background-color:#5c7484;
+    display: grid;
+    grid-template-columns: 0.3fr 0.70fr;
+    grid-template-rows: repeat(6,auto);
+    gap: 2em;
+}
+
+#logo{
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+h2,h3,h4{
+    color: #d4d8dd;
+    text-shadow: 1px 1px 2px black 
+}
+
+p,li{
+    color: white
+}
+
+header{
+    grid-column: span 2;
+}
+
+.sidebar{
+    grid-row: span 4;
+}
+
+footer{
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+}
