@@ -4,20 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Andrés Resume</title>
+    <!--CSS-->
+    <link 
+    rel="StyleSheet"
+    href="./style.css"
+    />
 </head>
 <body>
-    <img src="./assets/images/AM LOGO 2.PNG" height="180"/>
-    <hr />
-    <div>
+    <!-- HEADER -->
+    <Header>
+        <img id="logo" src="./assets/images/AM LOGO 3.PNG" height="180"/>
         <h2>Software Developer</h2>
         <p>As a Civil Engineer with a strong passion for technology, I have a unique skill set that enables me to excel in software development. With a deep understanding of mathematics, physics, and coursework in several programming languages, it makes me equipped with a strong foundation in software development concepts. Through my work as a Civil Engineer, I have honed my problem-solving abilities, learned to approach complex issues with a methodical mindset and to collaborate with colleagues.</p>
+    </Header>
+    <!-- #END HEADER -->
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <!-- Soft Skills -->
+        <div class="soft">
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Logical approach to problem-solving</li>
+                <li>Strong time management skills</li>
+                <li>Highly organized and detail-oriented</li>
+                <li>Learning agility and decision-making</li>
+            </ul>
+        </div>
+        <!--#end Soft Skills -->
+    
+        <!--Languages -->
+        <div class="languages">
+            <h4>Languages</h4>
+            <ul>
+                <li>English
+                    <ul>
+                        <li>C1: BELT Receptive Skills (2023)</li>
+                    </ul>
+                </li>
+                <li>Spanish
+                    <ul>
+                        <li>Native</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--#end Languages -->
     </div>
-    <hr />
+    <!-- #END SIDEBAR -->
+
     <!--Education-->
-    <div>
+    <div class="education">
         <h3>Education</h3>
         <ul>
-            <li>Computer Software Engineering Diploma (2022-Current)
+            <li>Bachelor's Degree in Computer Software Engineering (2022-Current)
                 <ul>
                     <li>Universidad Estatal a Distancia de Costa Rica (UNED)</li>
                     <li>Studies in computer science to be able to build Software to specifications, document it, implement it, and mantain it</li>
@@ -32,9 +72,9 @@
         </ul>
     </div>
     <!--END Education-->
-    <hr />
+
     <!--Work Experience-->
-    <div>
+    <div class="Work">
         <h3>Work Experience</h3>
         <ul>
             <li>Jr. Infrastructure Design Engineer (2017-Current)
@@ -45,11 +85,9 @@
         </ul>
     </div>
     <!--END Work Experience-->
-    <hr />
 
-    <h3>Skills</h3>
     <!-- Hard Skills -->
-    <div>
+    <div class="hard">
         <h4>Hard Skills</h4>
         <ul>
             <li>C++
@@ -99,37 +137,8 @@
     </div>
     <!--#end Hard Skills -->
 
-    <!-- Soft Skills -->
-    <div>
-        <h4>Soft Skills</h4>
-        <ul>
-            <li>Logical approach to problem-solving</li>
-            <li>Strong time management skills</li>
-            <li>Highly organized and detail-oriented</li>
-            <li>Learning agility and decision-making</li>
-        </ul>
-    </div>
-    <!--#end Soft Skills -->
-    
-    <!--Languages -->
-    <div>
-        <h4>Languages</h4>
-        <ul>
-            <li>English
-                <ul>
-                    <li>C1: BELT Receptive Skills (2023)</li>
-                </ul>
-            </li>
-            <li>Spanish
-                <ul>
-                    <li>Native</li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <!--#end Soft Skills -->
-    <!--Languages -->
-    <div>
+    <!--Courses -->
+    <div class="Courses">
         <h4>Courses</h4>
         <ul>
             <li>
@@ -144,8 +153,9 @@
             </ul>
         </ul>
     </div>
+    <!--#end Courses -->
 
-    <hr />
+    <!-- FOOTER -->
     <footer>
         <small>
             © Andres Madrigal Guevara. All rights reserved.
@@ -153,8 +163,8 @@
             <a href="./public/about.html">About</a>
             <a href="./public/contact.html">Contact </a>
         </small>      
-        <hr />
     </footer>
+    <!-- #end FOOTER -->
 </body>
 </html>
 
